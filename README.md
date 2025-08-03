@@ -1,38 +1,52 @@
-# Welcome to JamesTheGiblet's GitHub! 👋  
+# 🧠 James The Giblet | Mythic Builder Portal
 
-## **About Me**  
-Hi, I’m James, a multidisciplinary creator with a passion for blending technology, creativity, and hands-on problem-solving. From advanced programming and robotics to brewing experiments and generative art, my work reflects a curious spirit and a drive to innovate.  
+Welcome to the modular vault of James The Giblet — polymath, caretaker, and mythwright. This site is a living archive of robotic artifacts, cinematic simulations, and ritualized engineering practices.
 
-I approach each project as an opportunity to learn, grow, and explore. Whether it's designing interactive programs, crafting unique 3D models, or experimenting with flavor profiles, my journey is fueled by curiosity and a relentless pursuit of new possibilities.
+## 🔮 What is This?
 
----
+A retro-terminal themed portal blending:
 
-## **What I Do**  
-✨ **Programming & Robotics:** Advanced Python coding, modular design, and robotics innovations like G.I.S.M.O.  
-🎨 **3D Modeling & Generative Art:** From creative designs on Cults3D to algorithmic art experiments like Random-Art.  
-🍺 **Brewing & Distillation:** Pioneering brewing techniques, experimenting with wild yeast, and creating sour mash infusions.  
-🔧 **Technical Repair & Innovation:** Building, troubleshooting, and optimizing everything from electronics to mechanical systems.
+- Modular robotics & 3D printing
+- GitHub project browser with auto-docs
+- Lore scrolls & prophetic design archives
+- Codex of mythic engineering rituals
+- Screen-accurate IMSAI 8080 + WOPR simulator
+- CLI-style UI with glyph logic and hidden panels
 
----
+## 🛠️ Technologies Used
 
-## **Featured Projects**  
-🌟 **[Project-G.I.S.M.O](https://github.com/JamesTheGiblet/Project-G.I.S.M.O):** A mobile robot showcasing Python-powered robotics.  
-🌟 **[M.I.L.O-Chatbot](https://github.com/JamesTheGiblet/M.I.L.O-Chatbot):** An AI-driven virtual assistant for task management and learning.  
-🌟 **[Petteomocha](https://github.com/JamesTheGiblet/Petteomocha-project):** A fun, digital Tamagotchi-style pet game.  
-🌟 **[Random-Art](https://github.com/JamesTheGiblet/Random-Art):** Generative art blending logic and creative expression.
+- HTML/CSS (CRT + neon styling)
+- Three.js for 3D model viewer
+- GitHub API for repo browser
+- QR logic for physical artifact linking
+- ESP32 + Pi integrations (hardware modules)
+- OpenAI TTS for Joshua voice synthesis
 
----
+## 📁 Site Structure
 
-## **My Goals**  
-📌 Brew innovative beer flavors with techniques like sour mashing and plum infusion.  
-📌 Expand my 3D modeling portfolio with unique, functional designs.  
-📌 Develop cutting-edge interactive software and robotics projects.  
-📌 Build a career that combines creativity, technical expertise, and meaningful problem-solving.
+| Page         | Purpose                                  |
+|--------------|-------------------------------------------|
+| `index.html` | Terminal homepage + glyph sigil toggle    |
+| `artifacts.html` | STL/GLB viewer + lore descriptions    |
+| `projects.html` | GitHub browser + README fetch          |
+| `codex.html` | Rituals, rules, and design philosophies   |
+| `vault.html` | Authorship verification + QR triggers     |
+| `hack.html`  | Hidden console with puzzle unlocks        |
 
----
+## 🧙 Mythic Modules
 
-## **Connect With Me**  
-🌐 Explore my work and let’s collaborate on something great!  
-💬 Open to feedback, contributions, and new ideas for projects.
+- 🌀 Spiral Sigil: Brand anchor, pulsing animation
+- 🧱 Codex Fragments: Modular rulebook sections
+- 🧠 Premature Maker Scroll: Prophetic design archive
+- 🧰 Toolbelt: CLI tools and dev utilities
+- 🧬 PraximOS: Mythic OS mockup (in progress)
 
----
+## 🧭 How to Contribute
+
+Coming soon: `.rituals/` folder for issue rituals, bounty glyphs, and contributor lineage scroll.
+
+## 📜 License & Authorship
+
+All content authored by James The Giblet. Modular sovereignty and ritual authorship protected via EmbedID logic.
+
+> “Modularity is Mythos. Build. Ritual. Repeat.”
