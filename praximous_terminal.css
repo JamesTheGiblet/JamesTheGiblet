@@ -1,69 +1,285 @@
+/* 
+   PRAXIMOUS TERMINAL STYLESHEET
+   MODULARITY IS MYTHOS // GLYPH IS IDENTITY // DESIGN IS RITUAL
+*/
+
+/* 🎨 Color Palette & 🖋️ Typography from Branding Codex */
+:root {
+  --neon-spiral: #00FFF7;
+  --ritual-gold: #FFD700;
+  --void-black: #0A0A0A;
+  --lore-violet: #8A2BE2;
+  --light-grey: #E0E0E0; /* For body text readability */
+
+  --font-header: 'Share Tech Mono', monospace;
+  --font-body: 'IBM Plex Mono', monospace;
+}
+
+/* General Body Styles */
 body {
-  margin: 0;
-  font-family: 'Courier New', monospace;
-  background-color: #0a0a0a;
-  color: #00ffcc;
-  overflow-x: hidden;
-}
-
-.sigil {
+  background-color: var(--void-black);
+  color: var(--light-grey);
+  font-family: var(--font-body);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding: 4rem 0;
-  animation: pulse 3s infinite;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 0.8; }
-  50% { transform: scale(1.05); opacity: 1; }
-  100% { transform: scale(1); opacity: 0.8; }
+/* Add scanline effect to the entire page to enhance the CRT terminal feel */
+body::after {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* === Index Page Specific Styles === */
+.sigil {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .console {
-  text-align: center;
-  font-size: 1.2rem;
-  line-height: 1.6;
-  white-space: pre;
-  padding: 2rem;
+  font-family: var(--font-header);
+  color: var(--neon-spiral);
+  border: 1px solid var(--neon-spiral);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  text-align: left;
+  white-space: pre-wrap;
+  box-shadow: 0 0 10px rgba(0, 255, 247, 0.3);
 }
 
 .menu {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  padding: 2rem;
-  max-width: 900px;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2rem 0;
 }
 
 .menu-item {
-  background-color: #111;
-  border: 1px solid #00ffcc;
-  padding: 1rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  font-family: var(--font-header);
+  text-decoration: none;
+  color: var(--neon-spiral);
+  padding: 0.5rem;
+  transition: color 0.3s, text-shadow 0.3s;
 }
 
 .menu-item:hover {
-  background-color: #00ffcc;
-  color: #000;
+  color: white;
+  text-shadow: 0 0 8px var(--neon-spiral);
 }
 
 .footer-glyph {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
-  background-image: url('glyph_hackpanel.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
+  /* Placeholder for a clickable glyph */
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--ritual-gold);
   cursor: pointer;
-  animation: glyphPulse 2s infinite;
+  margin-top: auto;
 }
 
-@keyframes glyphPulse {
-  0%, 100% { opacity: 0.6; }
-  50% { opacity: 1; }
+/* === Artifacts Page Specific Styles === */
+
+/* 📜 Lore Integration: Scroll Header */
+.scroll-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.scroll-header h1 {
+  font-family: var(--font-header);
+  color: var(--neon-spiral);
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  animation: text-flicker 7s infinite alternate;
+  text-shadow: 0 0 5px var(--neon-spiral);
+}
+
+.scroll-header .lore-quote {
+  color: var(--ritual-gold);
+  font-style: italic;
+  max-width: 60ch;
+}
+
+/* 📜 Lore Integration: Glyph Divider */
+.glyph-divider {
+  font-size: 2rem;
+  color: var(--neon-spiral);
+  margin: 1rem 0;
+  animation: pulse 2.5s infinite;
+}
+
+/* 🧱 Layout Rituals: Modular Grid for Artifacts */
+.artifacts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 2rem;
+}
+
+/* 🧱 Layout Rituals: Terminal Cards */
+.terminal-card {
+  background-color: #111;
+  border: 1px solid var(--neon-spiral);
+  box-shadow: 0 0 10px rgba(0, 255, 247, 0.3);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  animation: card-glow-idle 5s infinite alternate;
+}
+
+.terminal-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 0 25px rgba(0, 255, 247, 0.7);
+  border-color: var(--light-grey);
+}
+
+/* 📦 Artifact Branding: Thumbnails */
+.card-thumbnail {
+  position: relative;
+  background-color: #000;
+}
+
+.card-thumbnail img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.8;
+}
+
+.card-thumbnail .spiral-watermark {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  /* You will need to create this SVG file */
+  background-image: url('images/spiral_glyph.svg'); 
+  background-size: contain;
+  opacity: 0.5;
+}
+
+.card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.artifact-name {
+  font-family: var(--font-header);
+  color: var(--neon-spiral);
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.card-body p {
+  margin: 0 0 1rem 0;
+  flex-grow: 1;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.qr-glyph {
+  width: 50px;
+  height: 50px;
+  background-color: white; /* QR codes need a light background */
+  padding: 4px;
+}
+
+.lore-link {
+  font-family: var(--font-header);
+  color: var(--ritual-gold);
+  text-decoration: none;
+  border: 1px solid var(--ritual-gold);
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.lore-link:hover {
+  background-color: var(--ritual-gold);
+  color: var(--void-black);
+  box-shadow: 0 0 15px var(--ritual-gold);
+}
+
+/* 🌀 Pulse Animation from Branding Codex */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+    text-shadow: 0 0 5px var(--neon-spiral);
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+    text-shadow: 0 0 15px var(--neon-spiral);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+    text-shadow: 0 0 5px var(--neon-spiral);
+  }
+}
+
+/* Subtle idle glow for cards */
+@keyframes card-glow-idle {
+  from {
+    box-shadow: 0 0 8px rgba(0, 255, 247, 0.2);
+  }
+  to {
+    box-shadow: 0 0 12px rgba(0, 255, 247, 0.4);
+  }
+}
+
+/* Header text flicker effect */
+@keyframes text-flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+      0 0 5px var(--neon-spiral),
+      0 0 12px var(--neon-spiral),
+      0 0 20px var(--neon-spiral);
+  }
+  20%, 24%, 55% {
+    text-shadow: none;
+  }
+}
+
+/* Styles for dynamic content loading in artifacts.html */
+.loader, .error-message {
+  grid-column: 1 / -1; /* Span all columns in the grid */
+  text-align: center;
+  font-family: var(--font-header);
+  font-size: 1.2rem;
+  padding: 4rem 2rem;
+  color: var(--neon-spiral);
+}
+
+.error-message {
+  color: #FF4136; /* A terminal-style red for errors */
 }

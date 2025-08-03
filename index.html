@@ -3,31 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Praximous | Vault Landing</title>
-  <link rel="stylesheet" href="praximous_terminal.css" />
+  <title>James The Giblet | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <style>
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem 2rem; /* Adjust padding as needed */
+      background: linear-gradient(to right, #0A0A0A 60%, #800000); /* Void Black to a dark red, with more black */
+    }
+    .logo {
+      width: 100px; /* Reduced logo size */
+    }
+    header h1 {
+      color: #FFD700; /* Ritual Gold */
+      font-family: 'Share Tech Mono', monospace; /* Thematic font */
+      margin: 0 0 0 1.5rem; /* Space from logo */
+      font-size: 2.5rem;
+    }
+  </style>
 </head>
 <body>
 
-  <div class="sigil">
-    <img src="spiral_sigil.svg" alt="Praximous Sigil" width="120" />
-  </div>
+  <header>
+    <img src="images/jtg_logo.png" alt="James The Giblet Logo" class="logo" />
+    <h1>James The Giblet</h1>
+  </header>
 
-  <div class="console">
-    > INITIATE PRAXIMOUS MODULE  
-    > MODULARITY IS MYTHOS // BUILD // RITUAL // REPEAT  
-    > Welcome, architect. The vault is awake...
-  </div>
+  <main>
+    <nav class="menu">
+      <a href="artifacts.html" class="menu-item">3D Artifacts</a>
+      <a href="projects.html" class="menu-item">Projects</a>
+      <a href="codex.html" class="menu-item">Codex / Rules</a>
+      <a href="vault.html" class="menu-item">The Vault</a>
+      <a href="about.html" class="menu-item">About Me</a>
+      <a href="contact.html" class="menu-item">Contact</a>
+    </nav>
 
-  <div class="menu">
-    <div class="menu-item" onclick="location.href='artifacts.html'">summon.artifacts()</div>
-    <div class="menu-item" onclick="location.href='projects.html'">launch.projects()</div>
-    <div class="menu-item" onclick="location.href='codex.html'">open.codex()</div>
-    <div class="menu-item" onclick="location.href='vault.html'">enter.vault()</div>
-    <div class="menu-item" onclick="location.href='summoning.html'">initiate.summoning_chamber()</div>
-    <div class="menu-item" onclick="location.href='about.html'">consult.scroll("about")</div>
-  </div>
+    <section class="intro">
+      <h1>[ Root Access Granted ]</h1>
+      <p>I am a multidisciplinary creator who architects projects from initial concept to final artifact. I design and build custom 3D printers and publish intricate models on Cults3D as <strong>shapemaker</strong>. My software expertise spans from autonomous AI agents and trading bots to bespoke developer tools. My core specialty lies in transforming detailed READMEs into strategic roadmaps, guiding complex robotic and software projects from MVP to completion with precision and clarity.</p>
+    </section>
+  </main>
 
-  <div class="footer-glyph" onclick="location.href='hack.html'"></div>
+  <footer>
+    <p>// Design is not decoration. It is invocation. //</p>
+  </footer>
 
 </body>
 </html>

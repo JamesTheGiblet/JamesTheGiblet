@@ -1,0 +1,8 @@
+# Environment variables
+.env
+
+# Node.js dependencies
+node_modules/
+
+# NPM debug log
+npm-debug.log*
