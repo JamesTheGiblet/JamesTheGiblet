@@ -1,52 +1,53 @@
 # 🧠 James The Giblet | Mythic Builder Portal
 
-Welcome to the modular vault of James The Giblet — polymath, caretaker, and mythwright. This site is a living archive of robotic artifacts, cinematic simulations, and ritualized engineering practices.
+**MODULARITY IS MYTHOS // GLYPH IS IDENTITY // DESIGN IS RITUAL**
 
-## 🔮 What is This?
+Welcome to the modular vault of James The Giblet — polymath, caretaker, and mythwright. This GitHub portal serves as a living archive of my robotic artifacts, AI-powered systems, and ritualized engineering practices, representing a journey from interactive software to physical creations. Here, each repository is a project, a scroll, or a living codex.
 
-A retro-terminal themed portal blending:
+-----
 
-- Modular robotics & 3D printing
-- GitHub project browser with auto-docs
-- Lore scrolls & prophetic design archives
-- Codex of mythic engineering rituals
-- Screen-accurate IMSAI 8080 + WOPR simulator
-- CLI-style UI with glyph logic and hidden panels
+### 🔮 The Invocation
 
-## 🛠️ Technologies Used
+This portal is a retro-terminal themed sigil, blending my creative works with a cohesive brand identity:
 
-- HTML/CSS (CRT + neon styling)
-- Three.js for 3D model viewer
-- GitHub API for repo browser
-- QR logic for physical artifact linking
-- ESP32 + Pi integrations (hardware modules)
-- OpenAI TTS for Joshua voice synthesis
+  * Advanced AI, robotics & 3D fabrication glyphs.
+  * A living codex of mythic engineering rituals, embodied in each project's README.
+  * Lore scrolls & prophetic design archives.
+  * CLI-style UI with glyph logic and hidden panels.
 
-## 📁 Site Structure
+-----
 
-| Page         | Purpose                                  |
-|--------------|-------------------------------------------|
-| `index.html` | Terminal homepage + glyph sigil toggle    |
-| `artifacts.html` | STL/GLB viewer + lore descriptions    |
-| `projects.html` | GitHub browser + README fetch          |
-| `codex.html` | Rituals, rules, and design philosophies   |
-| `vault.html` | Authorship verification + QR triggers     |
-| `hack.html`  | Hidden console with puzzle unlocks        |
+### 🛠️ The Ritual Stack
 
-## 🧙 Mythic Modules
+The site's architecture is built upon a foundation of powerful glyphs:
 
-- 🌀 Spiral Sigil: Brand anchor, pulsing animation
-- 🧱 Codex Fragments: Modular rulebook sections
-- 🧠 Premature Maker Scroll: Prophetic design archive
-- 🧰 Toolbelt: CLI tools and dev utilities
-- 🧬 PraximOS: Mythic OS mockup (in progress)
+  * **HTML/CSS** (CRT + neon styling)
+  * **Three.js** for the 3D artifact viewer.
+  * **GitHub API** for the repository browser.
+  * **QR logic** for linking to physical artifacts.
+  * **ESP32 + Pi integrations** (hardware modules).
+  * **OpenAI TTS** for Joshua voice synthesis.
 
-## 🧭 How to Contribute
+-----
 
-Coming soon: `.rituals/` folder for issue rituals, bounty glyphs, and contributor lineage scroll.
+### 🧙 Featured Artifacts
 
-## 📜 License & Authorship
+  * 🧬 **Praxis: The Living Codex**: An experimental, self-evolving AI presence designed with a bio-driven backend.
+  * 🤖 **Project G.I.S.M.O.**: A mobile robot showcasing Python-based robotics, dead reckoning, and adaptive navigation.
+  * 🛠️ **TotalControl**: An AI-powered GCode invocation engine for precision 3D fabrication.
+  * 📝 **EmbedID**: A cryptographic tool to embed ownership sigils into source code, verifying creative lineage.
+  * 🎨 **Random-Art**: A Python-powered exploration of generative art, creating unique, algorithmically driven designs.
 
-All content authored by James The Giblet. Modular sovereignty and ritual authorship protected via EmbedID logic.
+-----
+
+### 🧭 The Ritual of Creation
+
+This README transmission provides a guide to the rituals and lore behind my work. For upto a 95% success rate on these projects by leveraging AI assistance and a basic understanding of file structure and code, you can purchase my roadmap and detailed step-by-step walkthrough from concept to MVP to creation on [jamesthegiblet.co.uk](https://www.google.com/search?q=https://www.jamesthegiblet.co.uk).
+
+-----
+
+### 📜 License Codex & Authorship
+
+All content is the ritualized work of James The Giblet. Modular sovereignty and ritual authorship are protected via **EmbedID** logic.
 
 > “Modularity is Mythos. Build. Ritual. Repeat.”
