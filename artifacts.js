@@ -24,12 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
           card.className = 'terminal-card';
           card.innerHTML = `
             <div class="card-thumbnail">
-              <img src="${model.images[0].url}" alt="${model.name} Thumbnail">
               <div class="spiral-watermark"></div>
             </div>
             <div class="card-body">
               <h2 class="artifact-name">${model.name}</h2>
-              <p>${model.short_description || 'A complex artifact from the digital forge.'}</p>
               <div class="card-footer">
                 <a href="${model.url}" target="_blank" rel="noopener noreferrer" class="lore-link">view.on_cults3d()</a>
               </div>
