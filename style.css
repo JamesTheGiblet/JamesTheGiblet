@@ -1,190 +1,58 @@
+/* Custom CSS to implement the Praximous Branding Codex */
+:root {
+    --neon-spiral: #00FFF7;
+    --ritual-gold: #FFD700;
+    --void-black: #0A0A0A;
+    --lore-violet: #8A2BE2;
+    --phi: 1.618;
+}
 body {
-  font-family: 'IBM Plex Mono', monospace, sans-serif; /* More thematic font */
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #0A0A0A; /* Void Black */
-  color: #E0E0E0; /* Light Grey for readability */
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: var(--void-black);
+    color: #E0E0E0;
 }
-
-header {
-  text-align: center;
-  padding: 2rem 0;
-  border-bottom: 1px solid #ddd;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--neon-spiral);
 }
-
-.logo {
-  width: 100px;
+.cinzel {
+    font-family: 'Cinzel Decorative', serif;
 }
-
-main {
-  max-width: 900px;
-  margin: auto;
-  padding: 2rem;
-  display: flex;
-  gap: 2rem;
-  align-items: stretch; /* Ensures columns are same height */
+.neon-text {
+    color: var(--neon-spiral);
+    text-shadow: 0 0 5px var(--neon-spiral), 0 0 10px var(--neon-spiral);
 }
-
-.intro {
-  background-color: #111; /* Darker card background */
-  padding: 2rem;
-  border: 1px solid #00FFF7; /* Neon Spiral border */
-  box-shadow: 0 0 10px rgba(0, 255, 247, 0.3);
-  text-align: left;
-  flex-grow: 1; /* Allows intro to fill available space */
+.ritual-gold-text {
+    color: var(--ritual-gold);
 }
-
-.intro p strong {
-  color: #FFD700; /* Ritual Gold */
-  font-weight: normal; /* The mono font is already bold enough, just need the color */
+/* Pulse Animation for the Core Sigil */
+@keyframes pulse-animation {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.05); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
 }
-
-.intro h1 {
-  color: #FFD700; /* Ritual Gold */
-  margin-bottom: 0.5rem;
-  font-family: 'Share Tech Mono', monospace;
+.pulse-animation {
+    animation: pulse-animation 2s infinite ease-in-out;
 }
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Aligns items to the left */
-  gap: 1rem;
-  flex-shrink: 0; /* Prevents menu from shrinking */
+/* Custom scrollbar for a terminal aesthetic */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--void-black); }
+::-webkit-scrollbar-thumb {
+    background-color: var(--lore-violet);
+    border-radius: 10px;
+    border: 2px solid var(--void-black);
 }
-
-.menu-item {
-  background-color: #111;
-  border: 1px solid #00FFF7;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  color: #00FFF7; /* Neon Spiral */
-  font-family: 'Share Tech Mono', monospace;
-  font-size: 1.2rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+.terminal-card {
+    background-color: #1A1A1A;
+    border-left: 2px solid var(--neon-spiral);
+    border-bottom: 2px solid var(--neon-spiral);
+    transition: transform 0.3s ease;
 }
-
-.menu-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 15px rgba(0, 255, 247, 0.6);
-  background-color: #1a1a1a;
+.terminal-card:hover {
+    transform: translateY(-5px);
+    border-left-color: var(--ritual-gold);
+    border-bottom-color: var(--ritual-gold);
 }
-
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  background-color: #000;
-  color: #FFD700; /* Ritual Gold */
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-/* For pages that don't have the two-column layout */
-.page-content {
-  width: 100%;
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-.project-card {
-  background-color: #111;
-  border: 1px solid #00FFF7; /* Neon Spiral */
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 0 8px rgba(0, 255, 247, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 15px rgba(0, 255, 247, 0.6);
-}
-
-.project-card h2 {
-  color: #00FFF7; /* Neon Spiral */
-  font-family: 'Share Tech Mono', monospace;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-.project-card p {
-  flex-grow: 1;
-  margin-bottom: 1.5rem;
-}
-
-.card-actions {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  margin-top: auto; /* Pushes actions to the bottom */
-}
-
-.readme-link, .buy-button {
-  font-family: 'Share Tech Mono', monospace;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  text-align: center;
-  border: 1px solid;
-  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-  flex: 1;
-}
-
-.readme-link {
-  color: #E0E0E0;
-  border-color: #E0E0E0;
-}
-
-.readme-link:hover {
-  background-color: #E0E0E0;
-  color: #0A0A0A;
-}
-
-.buy-button {
-  color: #FFD700; /* Ritual Gold */
-  border-color: #FFD700;
-}
-
-.buy-button:hover {
-  background-color: #FFD700;
-  color: #0A0A0A;
-  box-shadow: 0 0 10px #FFD700;
-}
-
-.section-divider {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 255, 247, 0), rgba(0, 255, 247, 0.75), rgba(0, 255, 247, 0));
-  margin: 4rem 0;
-}
-
-.project-card.is-free {
-  border-color: #8A2BE2; /* Lore Violet */
-  box-shadow: 0 0 8px rgba(138, 43, 226, 0.3);
-}
-
-.project-card.is-free:hover {
-  box-shadow: 0 0 15px rgba(138, 43, 226, 0.6);
-}
-
-.project-card.is-free h2 {
-  color: #8A2BE2; /* Lore Violet */
-}
-
-.project-card.is-free .readme-link {
-  border-color: #8A2BE2;
-  color: #8A2BE2;
-}
-
-.project-card.is-free .readme-link:hover {
-  background-color: #8A2BE2;
-  color: #fff;
-}
+/* Golden Ratio based typography and layout helpers */
+.golden-ratio-h1 { font-size: calc(2rem * var(--phi) * var(--phi)); }
+.golden-ratio-h2 { font-size: calc(1.5rem * var(--phi)); }

@@ -2,121 +2,166 @@
 
 MODULARITY IS MYTHOS // BUILD // RITUAL // REPEAT
 
-Welcome to the unfolding evolution of [jamesthegiblet.co.uk](https://jamesthegiblet.co.uk) — a living vault of robotic builds, modular tools, cinematic lore, and sovereign design rituals.
+Welcome to the unfolding evolution of jamesthegiblet.co.uk — a living vault of robotic builds, modular tools, cinematic lore, and sovereign design rituals.
 
-Each phase below represents a build chapter. Execution is chat-driven. Deployment is modular. Documentation is continuous.
+This document serves as the master codex for the development of the main portal, detailing each build phase as a chapter in its ritualized creation. Execution is chat-driven. Deployment is modular. Documentation is continuous.
+🛸 PHASE I – INITIATE CORE INTERFACE
 
----
+🎯 Goal: Establish the CLI-style dashboard homepage and thematic backbone for a static website.
 
-## 🛸 PHASE I – INITIATE CORE INTERFACE
+    [ ] Deploy index.html with CRT styling and a glyph footer toggle.
 
-🎯 Goal: Establish the CLI-style dashboard homepage and thematic backbone.
+    [ ] Apply praximous_terminal.css with the full neon + spiral theme.
 
-- [x] Deploy `index.html` with CRT styling and glyph footer toggle
-- [x] Apply `praximous_terminal.css` with full neon + spiral theme
-- [x] Embed spiral sigil logo with pulsing animation and typewriter header
-- [x] Create `README.md` manifest and link in live repo
-- [ ] Add stealth Easter Egg glyph → trigger `hack.html`
+    [ ] Embed the spiral sigil logo with pulsing animation and a typewriter header.
 
----
+    [ ] Create README.md manifest and link it in the live repository.
 
-## 🔧 PHASE II – SUMMON MODULES & CONTENT ZONES
+    [ ] Add a stealth Easter Egg glyph to trigger hack.html.
+
+🔧 PHASE II – SUMMON MODULES & CONTENT ZONES
 
 🎯 Goal: Create core content zones to house your 3D models, project logs, and product offerings.
 
-- [ ] Build `artifacts.html` with Three.js 3D viewer for STL/GLB models
-- [ ] Embed Cults3D artifact links + lore descriptions
-- [ ] Drop `projects.html` with GitHub repo browser (auto README fetch)
-- [ ] Style GitHub modules as terminal cards
-- [ ] Draft `summon.html` with subscription tiers (Adept, Initiate, Mythwright)
-- [ ] Add QR glyph logic for physical packaging → Vault access
+    [ ] Embed the "Artifacts" and "Fabrication Glyphs" sections on the homepage with dynamic product listings powered by the Cults3D API.
 
----
+    [ ] Integrate purchase links that redirect to your Cults3D storefront.
 
-## 📖 PHASE III – DOCUMENTATION & RITUALIZATION
+    [ ] Drop projects.html with a GitHub repo browser (auto README fetch).
 
-🎯 Goal: Codify your builder rituals, authorship logic, and modular protocols.
+    [ ] Style GitHub modules as terminal cards.
 
-- [ ] Create `codex.html` with rulebook sections + design philosophies
-- [ ] Include golden ratio layout tips, modular naming rituals, EmbedID logic
-- [ ] Build `vault.html` with authorship verification and QR triggers
-- [ ] Add auto-documenting logic: `README.md` + `roadmap.md` per GitHub repo
-- [ ] Drop glyph headers + scroll styling across docs
+    [ ] Add QR glyph logic for physical packaging to provide a link to the website.
 
----
+📖 PHASE III – DOCUMENTATION & RITUALIZATION
 
-## 🎭 PHASE IV – EASTER EGG HACK PANEL
+🎯 Goal: Codify your builder rituals and establish the purchase paths for your technical documentation.
 
-🎯 Goal: Build `hack.html` — a secret access console for hidden content.
+    [ ] Create codex.html with a preview and a purchase link to a premium "Codex Fragments" page on Patreon.
 
-- [ ] Hide blinking glyph in corner with delayed appearance
-- [ ] On click, load terminal UI with glitch text, override logic
-- [ ] Create logic puzzle or keystroke sequence to unlock scrolls
-- [ ] Gate unreleased prototypes, Copilot logs, and dev fragments
-- [ ] Add ambient audio FX + terminal glow toggles
+    [ ] Build vault.html with authorship verification and a preview of the EmbedID project, including a purchase link to Patreon.
 
----
+    [ ] Draft a preview of the roadmap.md with a purchase link for the full Roadmap & Walkthroughs on Patreon.
 
-## 📦 PHASE V – TOOLING & THIRD-PARTY INTEGRATION
+    [ ] Add glyph headers and scroll styling across all documentation pages.
 
-🎯 Goal: Introduce dev tools, upgrade modules, and API integrations.
+🎭 PHASE IV – EASTER EGG HACK PANEL
 
-- [ ] Add CLI-based tools showcase in `toolbelt.html`
-- [ ] Enable Discord webhook or repo commits from interface
-- [ ] Integrate Cults3D upload tool or product manager script
-- [ ] Create modular scripts repo → link from portal
-- [ ] Refactor `.env` structure to support multi-service
+🎯 Goal: Build hack.html — a secret access console for hidden content.
 
----
+    [ ] Hide a blinking glyph in the corner with a delayed appearance.
 
-## 🌐 PHASE VI – CROSS-PLATFORM HARMONIZATION
+    [ ] On click, load a terminal UI with glitch text and override logic.
+
+    [ ] Create a logic puzzle or keystroke sequence to unlock hidden lore scrolls.
+
+    [ ] Gate unreleased prototypes, Copilot logs, and dev fragments.
+
+    [ ] Add ambient audio FX + terminal glow toggles.
+
+📦 PHASE V – TOOLING & THIRD-PARTY INTEGRATION
+
+🎯 Goal: Introduce links to your tools and integrate external storefronts.
+
+    [ ] Add a CLI-based tools showcase in toolbelt.html.
+
+    [x] Create a serverless function to securely interact with the Cults3D API and expose product data.
+
+    [x] Create a serverless function to securely interact with the Patreon API to manage premium content links.
+
+    [x] Embed Gumroad widgets or direct links for roadmap purchases.
+
+    [x] Ensure Cults3D links are functional for 3D model sales.
+
+    [x] Create a modular scripts repo and link it from the portal.
+
+    [x] Refactor .env structure to support multi-service integrations in the future.
+
+🌐 PHASE VI – CROSS-PLATFORM HARMONIZATION
 
 🎯 Goal: Unify branding and lore across GitHub, Cults3D, product pages, and content channels.
 
-- [ ] Apply spiral branding to Cults3D thumbnails
-- [ ] Create QR-linked videos or lore scroll intros for each artifact
-- [ ] Develop CLI intro for YouTube content
-- [ ] Style Instagram posts with mythic grid and glyph scroll format
-- [ ] Publish `branding_codex.md` — your visual manifesto
+    [ ] Apply spiral branding to Cults3D thumbnails.
 
----
+    [ ] Create QR-linked videos or lore scroll intros for each artifact.
 
-## 🧱 STRUCTURE EXPANSIONS & LORE DROPS
+    [ ] Develop a CLI intro for YouTube content.
+
+    [ ] Style Instagram posts with a mythic grid and glyph scroll format.
+
+    [ ] Publish branding_codex.md — your visual manifesto.
+
+🧱 STRUCTURE EXPANSIONS & LORE DROPS
 
 📦 Content Planned:
 
-- [ ] IMSAI WOPR simulator (screen-accurate shell + lighting + voice)
-- [ ] Codex Fragment: “Chronicles of the Premature Maker”
-- [ ] Prototype Vault: artifacts before their time
-- [ ] Mythic OS mockup: PraximOS interface via terminal or web
-- [ ] 3D Printer mods + repair logs (interactive guides)
+    [ ] IMSAI WOPR simulator (screen-accurate shell + lighting + voice).
 
----
+    [ ] Codex Fragment: “Chronicles of the Premature Maker.”
 
-## 🤝 Contributor Protocol (Coming Soon)
+    [ ] Prototype Vault: artifacts before their time.
 
-- [ ] Open Issue Ritual System (`.rituals/` folder?)
-- [ ] Contributor scroll with lineage and lore of each contributor
-- [ ] Modular build challenges + glyph-based bounty tracker
+    [ ] Mythic OS mockup: PraximOS interface via terminal or web.
 
----
+    [ ] 3D Printer mods + repair logs (interactive guides).
 
-## 🔄 Deployment Tracking
+🤝 Contributor Protocol (Coming Soon)
 
-| Component         | Status      | Notes |
-|------------------|-------------|-------|
-| GitHub Pages Live| ✅           | Domain verified |
-| Domain Linked     | ✅           | GoDaddy → GitHub A records |
-| HTTPS Enabled     | ✅           | Security in place |
-| Theme Applied     | ✅           | Retro CRT w/ neon pulses |
-| README.md Ready   | ✅           | Modular and mythic |
-| Roadmap.md Drafted| 🧙 In Progress | You are here |
+    [ ] Open Issue Ritual System (.rituals/ folder?).
 
----
+    [ ] A contributor scroll with the lineage and lore of each contributor.
 
-## 🔮 What Comes Next?
+    [ ] Modular build challenges + a glyph-based bounty tracker.
 
-- Refactor by modules → Export as Codex fragments for AI collaboration
-- Develop Terminal Simulator UI for mobile
-- Build “Initiate Mode” with keyboard-only nav and CLI challenges
-- Embed personal lore → Daily rituals + mythic builder log
+🔄 Deployment Tracking
+
+Component
+
+Status
+
+Notes
+
+GitHub Pages Live
+
+✅
+
+Domain verified
+
+Domain Linked
+
+✅
+
+GoDaddy → GitHub A records
+
+HTTPS Enabled
+
+✅
+
+Security in place
+
+Codebase Deployed
+
+✅
+
+Retro CRT theme
+
+README.md Ready
+
+✅
+
+Modular and mythic
+
+Roadmap.md Drafted
+
+🧙 In Progress
+
+You are here
+🔮 What Comes Next?
+
+    Refactor by modules → Export as Codex fragments for AI collaboration.
+
+    Develop a Terminal Simulator UI for mobile.
+
+    Build “Initiate Mode” with keyboard-only nav and CLI challenges.
+
+    Embed personal lore → Daily rituals + mythic builder log.
