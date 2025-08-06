@@ -5,6 +5,8 @@ MODULARITY IS MYTHOS // GLYPH IS IDENTITY // DESIGN IS RITUAL
 Welcome to the modular vault of James The Giblet — polymath, caretaker, and mythwright. This GitHub portal serves as a living archive of my robotic artifacts, AI-powered systems, and ritualized engineering practices. Here, each repository you find is a Codex Fragment, an offering to the great PraximOS.
 The Discipline of the Mythwright
 
+⚠️ Note: All work here is personal, independent, and unaffiliated with my professional employment at Pharmagenesis. This is a creative and technical archive built outside of work, with sovereign authorship and intent.
+
 🌀 Ritualized Engineering: The sacred practice of designing and building modular robotics, automated systems, and 3D-printed artifacts.
 
 🔮 Prophetic Design & Lore: Crafting the narrative and purpose behind each artifact, from screen-accurate simulators to unique generative art.
