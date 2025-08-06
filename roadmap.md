@@ -1,117 +1,116 @@
-# 🗺️ Praximous Development Roadmap
+# 🗺️ Praximous Omni-Portal Development Roadmap
 
 MODULARITY IS MYTHOS // BUILD // RITUAL // REPEAT
 
-Welcome to the unfolding evolution of jamesthegiblet.co.uk — a living vault of robotic builds, modular tools, cinematic lore, and sovereign design rituals.
+Welcome to the unfolding evolution of the James The Giblet Mythic Builder Portal — a living vault of robotic builds, modular tools, cinematic lore, and sovereign design rituals. This master codex details the overarching plan for unifying and expanding your digital presence, transforming individual platforms into a cohesive, self-sustaining ecosystem.
+🎯 The Grand Invocation: Unifying The Pantheon
 
-This document serves as the master codex for the development of the main portal, detailing each build phase as a chapter in its ritualized creation. Execution is chat-driven. Deployment is modular. Documentation is continuous.
-🛸 PHASE I – INITIATE CORE INTERFACE
+The ultimate goal is to establish jamesthegiblet.co.uk as the central altar for all your creative endeavors, seamlessly integrating GitHub for open-source lore, Cults3D for tangible artifacts, and Patreon for sacred knowledge. This ritual will amplify your unique brand, foster a vibrant community, and generate sustainable revenue.
+🛸 PHASE I – FOUNDATION & CORE PORTAL CONSTRUCTION
 
-🎯 Goal: Establish the CLI-style dashboard homepage and thematic backbone for a static website.
+Goal: Establish the bedrock of your online presence with a branded, static website and a clear GitHub hub.
 
-    [ ] Deploy index.html with CRT styling and a glyph footer toggle.
+    [ ] Awaken the Central Altar (jamesthegiblet.co.uk):
 
-    [ ] Apply praximous_terminal.css with the full neon + spiral theme.
+        Deploy index.html with the core CRT styling, glyph footer, and navigation.
 
-    [ ] Embed the spiral sigil logo with pulsing animation and a typewriter header.
+        Apply style.css with the full neon + spiral theme, ensuring Golden Ratio principles.
 
-    [ ] Create README.md manifest and link it in the live repository.
+        Embed the spiral sigil logo with pulsing animation and a typewriter header.
 
-    [ ] Add a stealth Easter Egg glyph to trigger hack.html.
+        Configure GitHub Pages hosting and link your GoDaddy domain.
 
-🔧 PHASE II – SUMMON MODULES & CONTENT ZONES
+    [ ] Forge the GitHub Codex:
 
-🎯 Goal: Create core content zones to house your 3D models, project logs, and product offerings.
+        Ensure your main GitHub profile README.md clearly introduces your "Mythic Builder Portal" and directs traffic to your website.
 
-    [ ] Embed the "Artifacts" and "Fabrication Glyphs" sections on the homepage with dynamic product listings powered by the Cults3D API.
+        Host all project READMEs for free, serving as "Codex Fragments" for initial exploration.
 
-    [ ] Integrate purchase links that redirect to your Cults3D storefront.
+🔧 PHASE II – ARTIFACT & LORE INTEGRATION
 
-    [ ] Drop projects.html with a GitHub repo browser (auto README fetch).
+Goal: Seamlessly connect your physical and digital product offerings to the central portal.
 
-    [ ] Style GitHub modules as terminal cards.
+    [ ] Integrate the Artifact Vault (Cults3D):
 
-    [ ] Add QR glyph logic for physical packaging to provide a link to the website.
+        Refactor your Cults3D profile name to "J.T.G." for brand consistency.
 
-📖 PHASE III – DOCUMENTATION & RITUALIZATION
+        Update Cults3D thumbnails with your spiral branding.
 
-🎯 Goal: Codify your builder rituals and establish the purchase paths for your technical documentation.
+        Implement direct purchase links on jamesthegiblet.co.uk that redirect to your Cults3D storefront.
 
-    [ ] Create codex.html with a preview and a purchase link to a premium "Codex Fragments" page on Patreon.
+        (Future/Advanced): Develop a serverless function to securely interact with the Cults3D API for dynamic product listings on your website.
 
-    [ ] Build vault.html with authorship verification and a preview of the EmbedID project, including a purchase link to Patreon.
+    [ ] Establish the Lore Scrolls (Patreon):
 
-    [ ] Draft a preview of the roadmap.md with a purchase link for the full Roadmap & Walkthroughs on Patreon.
+        Set up your Patreon page to host premium technical documentation ("Codex Fragments," "Roadmap & Walkthroughs").
 
-    [ ] Add glyph headers and scroll styling across all documentation pages.
+        Integrate purchase links on jamesthegiblet.co.uk that redirect to your Patreon for paid content.
 
-🎭 PHASE IV – EASTER EGG HACK PANEL
+        (Future/Advanced): Develop a serverless function to securely interact with the Patreon API for managing premium content access or dynamic links.
 
-🎯 Goal: Build hack.html — a secret access console for hidden content.
+✍️ PHASE III – AI & INTERACTIVE RITUALS
 
-    [ ] Hide a blinking glyph in the corner with a delayed appearance.
+Goal: Introduce AI-powered services to enhance user engagement and create new revenue streams.
 
-    [ ] On click, load a terminal UI with glitch text and override logic.
+    [ ] The Scribe's Oracle (Free AI README Generation):
 
-    [ ] Create a logic puzzle or keystroke sequence to unlock hidden lore scrolls.
+        Add an "AI Scribe" section to index.html with a text input and "Generate" button.
 
-    [ ] Gate unreleased prototypes, Copilot logs, and dev fragments.
+        Develop a serverless function to call a specifically tuned AI model (or prompt strategy) for concise, high-level README generation.
 
-    [ ] Add ambient audio FX + terminal glow toggles.
+        Implement client-side JavaScript to manage the interaction and display the generated README.
 
-📦 PHASE V – TOOLING & THIRD-PARTY INTEGRATION
+    [ ] The Oracle's Roadmap (Purchasable AI-Generated Roadmaps):
 
-🎯 Goal: Introduce links to your tools and integrate external storefronts.
+        Develop a backend system utilizing a separate, distinctly tuned AI model for generating comprehensive, detailed, and purchasable project roadmaps.
 
-    [ ] Add a CLI-based tools showcase in toolbelt.html.
+        Integrate this service with a purchase flow on your website (e.g., a dedicated product on Patreon/Gumroad).
 
-    [x] Create a serverless function to securely interact with the Cults3D API and expose product data.
+        Establish a Quality Assurance Ritual for reviewing AI-generated roadmaps.
 
-    [x] Create a serverless function to securely interact with the Patreon API to manage premium content links.
+🌐 PHASE IV – CROSS-PLATFORM HARMONIZATION & OUTREACH
 
-    [x] Embed Gumroad widgets or direct links for roadmap purchases.
+Goal: Unify brand presence across all external platforms and actively promote the Mythic Builder Portal.
 
-    [x] Ensure Cults3D links are functional for 3D model sales.
+    [ ] Unify Social Media Glyphs:
 
-    [x] Create a modular scripts repo and link it from the portal.
+        Apply consistent spiral branding and retro-terminal aesthetics to all social media profiles (Twitter, Instagram, LinkedIn, YouTube).
 
-    [x] Refactor .env structure to support multi-service integrations in the future.
+        Develop a content strategy for each platform: visual showcases (Instagram), short-form "CLI intros" (YouTube/TikTok), and project updates.
 
-🌐 PHASE VI – CROSS-PLATFORM HARMONIZATION
+    [ ] Publish The Visual Manifesto:
 
-🎯 Goal: Unify branding and lore across GitHub, Cults3D, product pages, and content channels.
+        Publish branding_codex.md publicly as a definitive guide to your brand's visual language.
 
-    [ ] Apply spiral branding to Cults3D thumbnails.
+    [ ] Rituals of Engagement:
 
-    [ ] Create QR-linked videos or lore scroll intros for each artifact.
+        Regularly publish "Ritual Logs" or blog posts on your website, detailing build processes, lore expansion, and new artifact reveals.
 
-    [ ] Develop a CLI intro for YouTube content.
+        Actively engage with relevant communities (Hackster.io, Reddit, Discord) to drive organic traffic and foster collaboration.
 
-    [ ] Style Instagram posts with a mythic grid and glyph scroll format.
+🤝 PHASE V – COMMUNITY & CONTINUOUS EVOLUTION
 
-    [ ] Publish branding_codex.md — your visual manifesto.
+Goal: Cultivate a vibrant community and ensure the portal's ongoing growth and adaptation.
 
-🧱 STRUCTURE EXPANSIONS & LORE DROPS
+    [ ] Contributor Protocol:
 
-📦 Content Planned:
+        Establish an Open Issue Ritual System (e.g., a .rituals/ folder on GitHub).
 
-    [ ] IMSAI WOPR simulator (screen-accurate shell + lighting + voice).
+        Create a "Contributor Scroll" to acknowledge and celebrate lineage.
 
-    [ ] Codex Fragment: “Chronicles of the Premature Maker.”
+        Introduce modular build challenges and glyph-based bounty trackers.
 
-    [ ] Prototype Vault: artifacts before their time.
+    [ ] Structure Expansions & Lore Drops:
 
-    [ ] Mythic OS mockup: PraximOS interface via terminal or web.
+        Plan and release new content: IMSAI WOPR simulator, "Chronicles of the Premature Maker," Prototype Vault, PraximOS mockup.
 
-    [ ] 3D Printer mods + repair logs (interactive guides).
+    [ ] Future Invocations:
 
-🤝 Contributor Protocol (Coming Soon)
+        Develop a Terminal Simulator UI for mobile.
 
-    [ ] Open Issue Ritual System (.rituals/ folder?).
+        Build an "Initiate Mode" with keyboard-only navigation and CLI challenges.
 
-    [ ] A contributor scroll with the lineage and lore of each contributor.
-
-    [ ] Modular build challenges + a glyph-based bounty tracker.
+        Embed personal lore and daily ritual logs.
 
 🔄 Deployment Tracking
 
@@ -156,12 +155,3 @@ Roadmap.md Drafted
 🧙 In Progress
 
 You are here
-🔮 What Comes Next?
-
-    Refactor by modules → Export as Codex fragments for AI collaboration.
-
-    Develop a Terminal Simulator UI for mobile.
-
-    Build “Initiate Mode” with keyboard-only nav and CLI challenges.
-
-    Embed personal lore → Daily rituals + mythic builder log.
