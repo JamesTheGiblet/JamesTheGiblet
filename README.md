@@ -1,6 +1,4 @@
-Understood. I've updated the full document to include the business model change and added some emojis to give it a bit of visual character, while still keeping with the raw, "workshop" aesthetic.
-
-### **James "The Giblet" Mavric: The Workshop**
+## **James "The Giblet" Mavric: The Workshop**
 
 > My repos are my resume, typos and all.
 
