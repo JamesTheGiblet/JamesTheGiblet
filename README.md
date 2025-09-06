@@ -1,52 +1,42 @@
-## James "The Giblet" Mavric: The Workshop
+# James Mavric: I Make Stuff.
 
-> Welcome to the workshop. This is where chaotic ideas are forged into open-source blueprints and professional-grade tools.
+> Some people play games. Some people read books. I am a maker. It's not what I do; it's who I am.
 
-I build in public. The repos here are the transparent record of that work—the architectural plans, the core engines, and the functional code. The real product isn't just the code; it's the repeatable, understandable system.
-
-I give away the foundation. The blueprint is free, so you can build it yourself. The professional tool is for sale, so you can get the job done faster. 🗺️➡️🚀
+> I dream of code, robots, and ideas. I wake up and build them. This workshop is the public record of that compulsion. The projects here are born from necessity and curiosity—they are the tools I needed, the problems I found interesting, and the things that simply demanded to be built.
 
 ---
 
-### Products & Services: How This Workshop Sustains Itself 💰
+### My Compass: The Workshop Philosophy 🛠️
 
-My model is built on providing value at every level, from free knowledge to finished products.
+This is the code I operate by.
 
-1.  **Open-Source Blueprints (Free on GitHub):** Every project starts here. You get the core logic, the architectural `README`, and a functional MVP. The knowledge is always free. Fork it, learn from it, build on it.
-2.  **Professional Tools (Commercial):** For developers and teams who need reliable, polished tools that just work. These are the fully-supported, feature-rich versions built upon the open-source cores. No assembly required. *(Link to your future product page/store here)*
-3.  **3D Models & Assets (À La Carte on Cults3D):** For projects with physical components, you can buy the high-quality 3D models and digital assets directly. No subscription needed.
-4.  **Consulting & Partnerships (Hire Me):** Need a technical collaborator to bring your vision to life? I'm available for direct consulting engagements and select partnership opportunities.
-
----
-
-### Core Philosophy: The Mavric Way 🛠️
-
--   **Permission is a Myth:** You already have it. Stop waiting and start building.
--   **Ship Blueprints at 80%:** "Perfect" is the enemy of "done." I release open-source foundations early to invite collaboration. **Professional tools ship when they're 100% ready.** Reliability is the feature.
--   **The Code is the Proof:** Credentials don't matter. Working systems do.
--   **Trust the Itch:** Intuition is just pattern recognition at speed. Your gut knows things a spreadsheet can't tell you.
--   **Brutal Honesty:** Markets don't care about your effort, only your results. Your code should be just as direct. If it's complex, it's wrong.
+-   **Curiosity is the Spec Sheet:** An itch, an annoyance, a "what if"—that's where every project begins. Intuition is just pattern recognition at speed. I trust it completely.
+-   **Utility First, Commerce Second:** I build tools to solve my own problems. That's the test. That's the validation. If a solution is good enough to become essential to my daily workflow, it's good enough to become a product. That's the business.
+-   **Build in Public, Typos and All:** The process is as important as the product. I share my work early and often. "Perfect" is the enemy of "done."
+-   **The Code is the Proof:** Credentials and talk are cheap. Working systems are the only things that matter.
 
 ---
 
-### 🛠️ The Tech Stack (Whatever Works)
+### How This Workshop Operates: From Itch to Tool
+
+My work follows a natural lifecycle. The business model is a reflection of that process, not the other way around.
+
+1.  **The Itch (An Idea):** It all starts with a problem I want to solve for myself.
+2.  **The Blueprint (Open-Source on GitHub):** The core solution is always built in public and shared for free. The knowledge is non-negotiable. Fork it, learn from it, build on it.
+3.  **The Polished Tool (Commercial):** If a blueprint proves exceptionally useful, it may graduate into a professional-grade tool for those who need a reliable, fully-supported product that just works.
+4.  **Direct Collaboration (Consulting):** For when your problem is interesting enough to become my problem. I'm available for select consulting engagements.
+
+---
+
+### 🛠️ The Tech Stack (Whatever Solves the Problem)
 
 -   **Languages**: Python for speed of thought, Rust for speed of execution, JavaScript for the pretty parts, C++ for hardware whispers.
 -   **Data**: PostgreSQL for serious relationships, Redis for fleeting ones, SQLite for prototypes that might grow up.
--   **Infrastructure**: Strong, flexible, and never married to one expensive brand.
 
 ---
 
-### 🤝 Let's Build Something
+### 🤝 Get Involved
 
-A good pull request is the best way to say "hello," but here are other ways to start:
-
--   **For Builders:** Fork a blueprint and make it your own.
--   **For Users:** Check out the professional tools and resources.
--   **For Visionaries:** Bring me your problem. Let's build the solution together.
-
-*(**A Note on Boundaries**: My open-source work is free. My time and expertise are not. If you want to pick my brain, that's what a consulting gig is for.)*
-
----
-
-### Ready to go?** Explore the repos, check out the tools, or drop me a line. 🚀
+-   **The best way to say "hello" is a good pull request.**
+-   **For a deeper collaboration** or if your project requires dedicated expertise, let's talk about a consulting gig.
+-   **For everything else,** explore the repos and see what problem we can solve next.
