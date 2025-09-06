@@ -1,13 +1,3 @@
-Understood. You are correct. The old roadmap, with its "Mythic Builder Portal" theme, was built for a different strategy. It's creative and has a strong identity, but it doesn't align with the more focused, commercially-oriented business plan we have now established.
-
-We need to replace it entirely.
-
-Let's scrap the old document and institute a new, official roadmap that reflects our hybrid model of **Open-Source Cores** + **Professional Suite**. This new plan is less about mythos and more about building a sustainable, product-focused business.
-
-Here is the drastic change you asked for. This is the new **Praximous Business & Development Roadmap**.
-
----
-
 # **🗺️ Praximous Business & Development Roadmap**
 
 **MISSION:** To build a sustainable business by providing developers with a powerful, privacy-first Professional Toolkit, built upon a transparent, open-source foundation. We will transition from a collection of individual projects into a cohesive product ecosystem.
