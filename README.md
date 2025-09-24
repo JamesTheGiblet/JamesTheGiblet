@@ -1,42 +1,57 @@
-# James Mavric: I Make Stuff.
+<div align="center">
+  <h1>James 'The Giblet' Mavric</h1>
+  <p><strong>Self-Taught Polymath Engineer • Systems Architect • Independent Researcher</strong></p>
+  <p>I build sovereign, modular, and privacy-first systems to solve complex problems across both digital and physical domains.</p>
 
-> Some people play games. Some people read books. I am a maker. It's not what I do; it's who I am.
-
-> I dream of code, robots, and ideas. I wake up and build them. This workshop is the public record of that compulsion. The projects here are born from necessity and curiosity—they are the tools I needed, the problems I found interesting, and the things that simply demanded to be built.
-
----
-
-### My Compass: The Workshop Philosophy 🛠️
-
-This is the code I operate by.
-
--   **Curiosity is the Spec Sheet:** An itch, an annoyance, a "what if"—that's where every project begins. Intuition is just pattern recognition at speed. I trust it completely.
--   **Utility First, Commerce Second:** I build tools to solve my own problems. That's the test. That's the validation. If a solution is good enough to become essential to my daily workflow, it's good enough to become a product. That's the business.
--   **Build in Public, Typos and All:** The process is as important as the product. I share my work early and often. "Perfect" is the enemy of "done."
--   **The Code is the Proof:** Credentials and talk are cheap. Working systems are the only things that matter.
+  <a href="https://github.com/ModularDev-tools">
+    <img src="https://img.shields.io/badge/My_Organization-ModularDev.tools-24292e?style=for-the-badge&logo=github" alt="ModularDev.tools GitHub Organization">
+  </a>
+</div>
 
 ---
 
-### How This Workshop Operates: From Itch to Tool
+## 🚀 My Mission: Building the Tools for Digital Sovereignty
 
-My work follows a natural lifecycle. The business model is a reflection of that process, not the other way around.
+I believe in building technology that empowers individuals. My work focuses on creating tools and systems that are private-by-design, user-owned, and built to last. Below is a selection of projects that serve as tangible evidence of this philosophy.
 
-1.  **The Itch (An Idea):** It all starts with a problem I want to solve for myself.
-2.  **The Blueprint (Open-Source on GitHub):** The core solution is always built in public and shared for free. The knowledge is non-negotiable. Fork it, learn from it, build on it.
-3.  **The Polished Tool (Commercial):** If a blueprint proves exceptionally useful, it may graduate into a professional-grade tool for those who need a reliable, fully-supported product that just works.
-4.  **Direct Collaboration (Consulting):** For when your problem is interesting enough to become my problem. I'm available for select consulting engagements.
+## 🧰 Featured Projects & Research
 
----
+### 🛡️ **PROJECT: Aegis-CLI — Automated Security Documentation**
+***A command-line tool that transforms a multi-week compliance task into a 3-second automated process.***
 
-### 🛠️ The Tech Stack (Whatever Solves the Problem)
-
--   **Languages**: Python for speed of thought, Rust for speed of execution, JavaScript for the pretty parts, C++ for hardware whispers.
--   **Data**: PostgreSQL for serious relationships, Redis for fleeting ones, SQLite for prototypes that might grow up.
+* **Problem:** System Security Plans are a high-cost, high-friction, and often-neglected compliance requirement, exposing projects to risk.
+* **Solution:** A Go-based CLI that recursively scans a codebase and auto-generates over 95% of the required security documentation instantly.
+* **Outcome:** Compresses a 2-4 week manual process into a 3-second task, eliminating cost and enabling universal adoption of security best practices.
+* **Skills:** `Go (Golang)` `CLI Development` `System Architecture` `Concurrency` `Security Compliance`
 
 ---
 
-### 🤝 Get Involved
+### 🧠 **PROJECT: DPMS — The Private AI Personality Blueprint**
+***A privacy-first AI platform that models human personality, running entirely on a local machine with zero cloud dependencies.***
 
--   **The best way to say "hello" is a good pull request.**
--   **For a deeper collaboration** or if your project requires dedicated expertise, let's talk about a consulting gig.
--   **For everything else,** explore the repos and see what problem we can solve next.
+* **Problem:** Cloud-based AI tools force a trade-off between utility and privacy, requiring users to surrender sensitive personal data.
+* **Solution:** A local-first AI platform using Ollama that provides deep personality insights without data ever leaving the user's machine.
+* **Outcome:** Establishes a new paradigm for AI tools built on digital sovereignty, proving the viability of a privacy-centric, local-first model.
+* **Skills:** `Python` `AI/ML` `Local LLM Integration` `NLP` `Privacy-by-Design Architecture` `Streamlit` `SQLite`
+
+---
+
+### 🤖 **PROJECT: Johnny 5 "Number 3" — Advanced Robotics Platform**
+***An advanced, multi-brain robotics platform designed as a serious challenge for integrated engineering skills.***
+
+* **Problem:** Most robotics kits are too simplistic for serious builders who want to master the integration of complex, multi-domain systems.
+* **Solution:** A complete architectural blueprint for a modular, multi-brain robot, distributing tasks across multiple processors.
+* **Outcome:** A tangible proof of cross-domain mastery in mechanical, electronic, and software engineering, and an extensible platform for advanced AI/robotics research.
+* **Skills:** `Systems Integration` `Hardware Engineering` `Electronics` `Distributed Systems` `Power Management` `Technical Writing`
+
+---
+
+## 📊 My GitHub Stats
+
+<div align="center">
+
+![JamesTheGiblet's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JamesTheGiblet&show_icons=true&theme=radical&hide_border=true&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JamesTheGiblet&layout=compact&theme=radical&hide_border=true&count_private=true)
+
+</div>
+
