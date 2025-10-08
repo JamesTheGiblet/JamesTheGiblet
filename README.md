@@ -2,7 +2,7 @@
 
 Maker who can't stop building things.
 
-**Day job:** Carpenter, locksmith, water hygiene, asbestos control, PAT tester, fire warden, first aid... bunch of other trades.  
+**Day job:** Caretaker 
 **Real job:** Whatever I'm obsessed with that week.
 
 3D printing, robotics, games, dev tools, AI systems - if it gets stuck in my head, I build it. Usually fast. Recent example: published [an npm package](https://www.npmjs.com/package/lightweight-env-validator) in 2 days because env validation was annoying me.
