@@ -5,7 +5,7 @@ Maker who can't stop building things.
 **Day job:** Carpenter, locksmith, water hygiene, asbestos control, PAT tester, fire warden, first aid... bunch of other trades.  
 **Real job:** Whatever I'm obsessed with that week.
 
-3D printing, robotics, games, dev tools - if it gets stuck in my head, I build it. Usually fast. Recent example: published [an npm package](https://www.npmjs.com/package/lightweight-env-validator) in 2 days because env validation was annoying me.
+3D printing, robotics, games, dev tools, AI systems - if it gets stuck in my head, I build it. Usually fast. Recent example: published [an npm package](https://www.npmjs.com/package/lightweight-env-validator) in 2 days because env validation was annoying me.
 
 My mind runs at 100mph, so I repo everything in detailed READMEs. Some projects are finished. Some are waiting for me to circle back. All of them are documented well enough that future me (or you) can pick them up.
 
@@ -17,9 +17,15 @@ Also design 3D printable stuff as [ShapedMaker3D on Cults3D](https://cults3d.com
 
 ---
 
-## 🛠️ Currently Building
+## 🧠 The Big Projects
 
-**Praximous** - An auto AI multi-faceted system. Still figuring this one out, but it's living rent-free in my head.
+### [Adaptive Intelligence Platform](https://github.com/JamesTheGiblet/adaptive-intelligence)
+Started building AI-powered dev tools because the same problems kept breaking my workflow. Realized I was building an entire platform. Suite includes secret scanning (Whisper), security compliance (Aegis), code watermarking (EmbedID), and more. Four tools at MVP, more in development.  
+`Python` `AI/ML` `Security` `DevTools`
+
+### [Praximous AI Gateway](https://github.com/JamesTheGiblet/praximous_mvp_scaffold)
+Secure, on-premise AI gateway for enterprises. Built because vendor lock-in and cloud dependencies are annoying. Dynamic failover, pluggable providers, reusable "Smart Skills." Your data never leaves your infrastructure.  
+`Python` `FastAPI` `Docker` `AI Gateway` `Enterprise`
 
 ---
 
